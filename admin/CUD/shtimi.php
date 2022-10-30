@@ -1,6 +1,6 @@
 <?php 
 session_start();
-if ($_SESSION['aksesi'] != 'admin') {
+if ($_SESSION['aksesi'] != 'admin' && $_SESSION['aksesi'] != 'founder') {
 	header('Location: ../../design/error/403.php');
 	exit;
 }
@@ -38,13 +38,13 @@ if ($_SESSION['aksesi'] != 'admin') {
             <div class="row mb-3">
                 <label class="col-sm-3 col-form-label">Nisja</label>
                 <div class="col-sm-6">
-                    <input type="text" class="form-control" name="nisja" id="nisja "required>
+                    <input type="time" name="nisja" class="form-control" value="06:00" id="nisja "required/>
                 </div>
             </div>
             <div class="row mb-3">
                 <label class="col-sm-3 col-form-label">Mberritja</label>
                 <div class="col-sm-6">
-                    <input type="text" class="form-control" name="mberritja" id="mberritja" required>
+                    <input type="time" name="mberritja" class="form-control" value="00:00" id="mberritja "required/>
                 </div>
             </div>
             <div class="row mb-3">
