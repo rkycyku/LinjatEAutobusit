@@ -9,7 +9,7 @@
 <body></body>
 
 <div class="container">
-    <?php include "./design/headerIndex.php" ?>
+    <?php include "./design/header.php"; ?>
     <br>
     <h1 class="text-center">Ju lutem zgjedhni linjen tuaj!!!<h1>
 </div>

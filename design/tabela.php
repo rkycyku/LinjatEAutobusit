@@ -22,14 +22,13 @@
                 <th>Nisja</th>
                 <th>Mberritja</th>
                 <th>Kompania</th>
-                <th>Relacioni</th>
-                <th>Statusi</th>
+                <th>Shenime Shtes</th>
                 <th>Funksione</th>
             </thead>
             
             <tbody>
                 <?php
-                    include "../../admin/konektimi/connection.php"; 
+                    include "./funksione/connection.php"; 
 
                     // read all row from database table
                     $sql = "SELECT * FROM linjat where relacioni = '$file1' ORDER BY nisja";
@@ -46,11 +45,10 @@
                             <td>$row[nisja]</td>
                             <td>$row[mberritja]</td>
                             <td>$row[kompania]</td>
-                            <td>$row[relacioni_fq]</td>
-                            <td>$row[statusi]</td>
+                            <td>$row[shenimeShtes]</td>
                             <td>
-                                <a class='btn btn-primary btn-sm' href='../../admin/CUD/CU/perditeso.php?id=$row[id]'>Perditeso</a>
-                                <a class='btn btn-danger btn-sm' href='../../admin/CUD/funksione/largo.php?id=$row[id]'>Largo</a>
+                                <a class='btn btn-primary btn-sm' href='perditeso.php?id=$row[id]'>Perditeso</a>
+                                <a class='btn btn-danger btn-sm' href='funksione/largo.php?id=$row[id]'>Largo</a>
                             </td>
                         </tr>
                     ";
