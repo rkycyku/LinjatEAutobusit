@@ -44,9 +44,8 @@ CREATE TABLE `linjat` (
   `nisja` varchar(250) NOT NULL,
   `mberritja` varchar(250) NOT NULL,
   `kompania` varchar(250) NOT NULL,
-  `relacioni_fq` varchar(250) NOT NULL,
   `relacioni` varchar(250) NOT NULL,
-  `statusi` varchar(250) NOT NULL
+  `shenimeShtes` varchar(250)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
