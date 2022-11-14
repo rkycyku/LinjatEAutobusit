@@ -29,7 +29,7 @@ Databazen funksionale mund ta gjeni ne:
 
 Me pastaj duhet te behet **import**, ky file krijon automatikisht **Databazen dhe Tabelat**.
 
-Pas importimit duhet te drejtoheni tek folderi **admin>konektimi** dhe te hapni file-in **connectin.php** ne nje text editor, pas hapjes se file-it connectin ju duhet te konfiguroni **Hostin, Username & Passwordin e Databazes tuaj**, ndersa $db me qe e kemi importuar me heret eshte ne rregull dhe si i tille ska nevoje te konfigurohet.
+Pas importimit duhet te drejtoheni tek folderi **funksione** dhe te hapni file-in **connectin.php** ne nje text editor, pas hapjes se file-it connectin ju duhet te konfiguroni **Hostin, Username & Passwordin e Databazes tuaj**, ndersa $db me qe e kemi importuar me heret eshte ne rregull dhe si i tille ska nevoje te konfigurohet.
 
 Pas konfigurimit ju mund te kyqeni si **Founder** me keto te dhena:
 
